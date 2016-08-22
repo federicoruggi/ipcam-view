@@ -144,7 +144,7 @@ public class MjpegViewDefault extends AbstractMjpegView {
                                         ovl = makeFpsOverlay(overlayPaint, fps);
                                     }
                                 }
-                            } catch (IOException e) {
+                            } catch (Exception ignored) {
 
                             }
                         }
@@ -342,4 +342,3 @@ public class MjpegViewDefault extends AbstractMjpegView {
     }
 
 }
-
